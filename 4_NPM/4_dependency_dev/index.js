@@ -6,4 +6,4 @@ const b = [1, 39, 4, 5, 6];
 
 const diff = _.difference(a, b);
 
-console.log(penis.blue.bold("yo yo yo Mr"), "wÆltar");
+console.log(diff.blue.bold("yo yo yo Mr"), "wÆltar");
