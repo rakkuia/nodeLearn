@@ -20,7 +20,10 @@ if(!name){
 
     
     else{
-        fs.writeFile(`${name}${i}.txt`, name,  function(err, data) {
+
+        const nameNewLine = name + '\r\n'
+
+        fs.appendFile(`file.txt`, nameNewLine,  function(err, data) {
             res.writeHead(302, {
                 Location:'/',
             })

@@ -20,7 +20,7 @@ if(!name){
 
     
     else{
-        fs.writeFile(`${name}${i}.txt`, name,  function(err, data) {
+        fs.writeFile(`${name}.txt`, name,  function(err, data) {
             res.writeHead(302, {
                 Location:'/',
             })
