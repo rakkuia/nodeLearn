@@ -14,3 +14,4 @@ nyarlathotep.on('help', () => console.log(`And him: ${nyarlathotep.name}: As if 
 
 console.log('quote:');
 nyarlathotep.emit('help');
+
